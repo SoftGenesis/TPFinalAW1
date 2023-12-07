@@ -1,0 +1,254 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("/TPFinalAW1/assets/FondoOscuro.png");
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    
+    max-width: 80px;
+    height: auto;
+}
+
+.navbar
+{
+    background-image: url('/TPFinalAW1/assets/FondoOscuro.png');
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    background-position: 50%;
+}
+
+.navbar button{
+    border-radius: 10px;
+    
+}
+
+.volver{
+    
+    margin-left: 10px;
+    margin-top: 22px;
+    justify-content: center;
+    align-items: start;
+    padding: 3px;
+}
+
+.volver button{
+    margin-left: 1350px;
+    background-color: white;
+    padding-top: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.volver img {
+    max-width: 30px;
+    height: auto;
+}
+
+.volver button:hover {
+    background-color:rgb(28, 71, 115);
+    box-shadow: 0 0 10px rgba(98, 149, 192, 0.8); 
+   
+}
+
+@media screen and (max-width:640px) {
+    .cart
+    {
+        background-position: 50%;
+        padding: 20px;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+    #shipping-info{
+        background-position: 50%;
+        padding: 40px;
+        align-items: center;
+        width: 350px;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+    .card
+    {
+        display: flex;
+        background-position: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+.titulo h3
+{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/TPFinalAW1/assets/FondoOscuro.png);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 90px;
+    box-shadow: 0 0 10px rgba(2, 152, 172, 0.851);
+}
+
+#cart {
+    background-color: darkgray;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(113, 105, 124);
+    border-radius: 5px;
+}
+
+#cart:hover
+{
+    box-shadow: 3px 4px 8px 0 rgba(62, 98, 128, 0.778);
+}
+
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #ccc;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+
+.cart-item span:last-child {
+    width: 100px; 
+    text-align: right; 
+}
+
+
+.delete-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button
+{
+    background-color: #6bdce2;
+    box-shadow: 0 0 10px rgba(82, 218, 225, 0.8);
+}
+
+#cart-total {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.card
+{
+    background-color: white;
+    justify-content: center;
+}
+
+.card-body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+
+}
+
+#shipping-info {
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    padding: 40px;
+    border-radius: 5px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+
+#shipping-info h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#shipping-info label {
+    display: block;
+    margin-top: 10px;
+}
+
+#shipping-info input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#complete-button, #cancel-button {
+    background-color: #cd1717;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#complete-button {
+    background-color: #2852a7; 
+}
+
+#complete-button:hover, #cancel-button:hover {
+    background-color: #cd1717; 
+}
+
+.delete-button {
+    background-color: white;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #e6301c;
+}
