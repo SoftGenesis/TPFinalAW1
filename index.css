@@ -40,7 +40,7 @@ body {
 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(/assets/FondoOscuro.png);
+    background-image: url(./assets/FondoOscuro.png);
     font-size: 40px;
     display: flex;
     align-items: center;
