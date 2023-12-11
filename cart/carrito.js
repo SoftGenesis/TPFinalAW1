@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <td>${item.title}</td>
             <td>${item.quantity}</td>
             <td>$${itemPrice.toFixed(2)}</td>
-            <td><button class="delete-button" data-index="${index}"><img src="/TPFinalAW1/assets/Eliminar.png" alt="eliminar" style="width: 35px; height: 35px;"></button></td>
+            <td><button class="delete-button" data-index="${index}"><img src="/assets/Eliminar.png" alt="eliminar" style="width: 35px; height: 35px;"></button></td>
         `;
 
         itemRow.querySelector('.delete-button').addEventListener('click', deleteClick);
