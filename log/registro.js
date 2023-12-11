@@ -25,6 +25,6 @@ document.getElementById("signBtn").addEventListener("click", function () {
         document.getElementById("password").value = "";
 
         alert("Registro exitoso!");
-        window.location.href = "/TPFinalAW1/log/logIn.html";
+        window.location.href = "/log/logIn.html";
     }
 });

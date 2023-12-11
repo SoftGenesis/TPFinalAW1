@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("/TPFinalAW1/assets/FondoOscuro.png");
+    background-image: url("/assets/FondoOscuro.png");
     margin: 0;
     padding: 0;
     align-items: center;
@@ -15,7 +15,7 @@ body {
 
 .navbar
 {
-    background-image: url('/TPFinalAW1/assets/FondoOscuro.png');
+    background-image: url('/assets/FondoOscuro.png');
     padding: 10px;
     text-align: start;
     display: flex;
@@ -90,7 +90,7 @@ body {
 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(/TPFinalAW1/assets/FondoOscuro.png);
+    background-image: url(/assets/FondoOscuro.png);
     font-size: 40px;
     display: flex;
     align-items: center;

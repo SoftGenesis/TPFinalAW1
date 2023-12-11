@@ -12,7 +12,7 @@ document.getElementById("logBtn").addEventListener("click", function () {
             let user = JSON.parse(storedUserData);
 
             if (user.password === password) {
-                window.location.href = "/TPFinalAW1/home/index.html";
+                window.location.href = "/home/index.html";
             } else {
                 alert("La contraseña es incorrecta. Inténte nuevamente.");
             }
